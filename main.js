@@ -25,9 +25,6 @@ function makeWord() {
 
 function guess(letter) {
     document.getElementById(letter).remove();
-    // document.getElementById(letter).style.pointerEvents = 'none';
-    // document.getElementById(letter).style.cursor = 'not-allowed';
-    // document.getElementById(letter).style.backgroundColor = 'black';
 
     let error = 0;
 
